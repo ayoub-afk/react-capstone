@@ -12,6 +12,9 @@ function App() {
        <h1>
         React Capstone App
        </h1>
+       <h3>
+        Here i am adding another line but from another device !
+       </h3>
       </div>
     </>
   )
