@@ -4,24 +4,29 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NavigationBar from './NavigationBar'
 import FooterCom from './FooterCom'
-import HeaderCom from './HeaderCom'
+import HeaderCom from './HeroCom'
 import MainCom from './MainCom'
+import BookingCom from './BookingCom'
+import AboutCom from './AboutCom'
+import FoodCom from './FoodCom'
+import ReviewCom from './ReviewCom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-       <h1>
-          React Capstone App
-       </h1>
-       <h3>
-          Here i am adding another line but from another device !
-       </h3>
        <NavigationBar />
         <HeaderCom />
-        <MainCom />
+
+      <FoodCom/>
+      <ReviewCom />
+
+       <BookingCom/>
+       <AboutCom />
        <FooterCom/>
+
+       
     </>
   )
 }

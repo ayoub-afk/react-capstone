@@ -1,0 +1,72 @@
+.rounded20{
+    border-radius: 20px;
+}
+
+#booking-sec{
+    margin: 5rem;
+    display:grid;
+    background-color: aqua;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7,1fr);
+    gap: 10px;
+}
+
+.bookinfo{
+     grid-row: 2/5;
+     grid-column: 2/7;
+     background-color: red;
+     padding: 3rem;
+     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2px;
+
+
+}
+
+.personalinfo{
+    grid-row: 2/5;
+    grid-column: 7/12;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2px;
+
+
+
+}
+
+.checkout{
+    background-color: #fff;
+    grid-row: 5/7;
+    grid-column: 4/10;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2px;
+
+}
+
+
+/* Input Field */
+.infi{
+    height: 3rem;
+    width: 16vw;
+    background-color:white;
+    font-size: 1.5rem;
+    text-indent: 2rem;
+    border: none;
+    
+}
+
+.bgc-p1{
+    background-color: #495E57 !important;
+}
+
+.tc-p2{
+    color: #F4CE14 !important;
+    font-size: 4rem;
+}
+
+.bgc-s3{
+    background-color: #EDEFEE !important ;
+}
