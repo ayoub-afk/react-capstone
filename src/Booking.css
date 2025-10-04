@@ -70,3 +70,18 @@
 .bgc-s3{
     background-color: #EDEFEE !important ;
 }
+
+
+
+
+
+
+.btn1{
+    border: none;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    background-color: #F4CE14;
+    height: 3rem;
+    width: 16vw;
+    
+}

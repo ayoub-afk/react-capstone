@@ -5,7 +5,7 @@ import './Booking.css'
 
 function HeaderCom (){
        return(
-       <section className="  Hero-sec rounded20">
+       <section id='home'  className="  Hero-sec rounded20">
                 <div className="hero-bg rounded20">
                 </div>
             <div className="disc-hero">
@@ -23,7 +23,7 @@ function HeaderCom (){
                      We are a family owned Mediterranean restaurant, 
                     focused on traditional recipes served with a modern twist.
                 </p>
-                <input type="button" value="Order now" />
+                <input className='btn1' type="button" value="Order now" />
             </div>
             <img  className='rounded20 img3' src='../src\assets\restauranfood.jpg'></img>
 

@@ -1,6 +1,6 @@
 function FooterCom (){
     return (
-       <footer class="navbar navbar-expand-lg bg-body-tertiary">
+       <footer id="footer" class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid mx-5">
     <a class="navbar-brand" href="#">
       <img src="../src/assets/Logo.svg" alt="Logo"  class="d-inline-block align-text-top" />

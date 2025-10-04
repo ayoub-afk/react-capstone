@@ -5,7 +5,7 @@ import './Booking.css'
 function FoodCom (){
 
     return (
-        <section className='food-sec rounded20'>
+        <section id='Menu' className='food-sec rounded20'>
             <div className="card  rounded20">
                 <img className='rounded20' src="src\assets\greek salad.jpg" alt="" />
                 <div style={{padding:'20px'}}>

@@ -6,7 +6,7 @@ import './Booking.css'
 function AboutCom(){
 
     return(
-       <section className="about-sec bgc-p1 rounded20">
+       <section id='about' className="about-sec bgc-p1 rounded20">
             <img className='img1 rounded20' src='../src/assets/ma1.jpg'></img>
             <img className='img2 rounded20' src='../src/assets/ma2.jpg'></img>
 
