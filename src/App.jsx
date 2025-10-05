@@ -22,7 +22,6 @@ function App() {
       <FoodCom/>
       <ReviewCom />
 
-       <BookingCom/>
        <AboutCom />
        <FooterCom/>
 

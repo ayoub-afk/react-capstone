@@ -36,6 +36,9 @@ const router = createBrowserRouter([{
 },{
   path : '/food' ,
   element : <FoodCom/> ,
+},{
+  path : '/booking' ,
+  element : <BookingCom/> ,
 }
 
 ]);

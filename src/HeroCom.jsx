@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import './About.css'
 import './Booking.css'
 
@@ -23,9 +24,13 @@ function HeaderCom (){
                      We are a family owned Mediterranean restaurant, 
                     focused on traditional recipes served with a modern twist.
                 </p>
-                <input className='btn1' type="button" value="Order now" />
+{/*                 <input className='btn1' type="button" value="Reserve a Table" />
+ */}                <button className='btn1'>
+                <Link className='btn1' to="/booking">Reserve a Table</Link>
+                </button>
             </div>
             <img  className='rounded20 img3' src='../src\assets\restauranfood.jpg'></img>
+            
 
 
        </section>
